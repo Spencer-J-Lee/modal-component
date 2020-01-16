@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+}
+
+.ModalToggle {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  padding: 12px 20px;
+  background-color: rgb(90, 71, 212);
+  color: #ddd;
+}
+
+.ModalToggle:hover {
+  filter: brightness(80%);
+}
